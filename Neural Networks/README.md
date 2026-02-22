@@ -93,7 +93,7 @@ Input(8) → Dense(32, ReLU) → Dense(16, ReLU) → Dense(8, ReLU) → Output(1
 ## Repository Structure
 
 ```
-1/
+Neural Networks/
 ├── pima_diabetes_nn.ipynb    # Complete notebook (load → explore → preprocess → train → evaluate)
 ├── diabetes.csv              # Raw dataset
 ├── README.md                 # This file
