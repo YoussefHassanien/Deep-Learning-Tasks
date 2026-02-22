@@ -1,0 +1,24 @@
+PIMA INDIANS DIABETES - NEURAL NETWORK RESULTS
+================================================
+
+Dataset      : Pima Indians Diabetes (768 samples, 8 features)
+Model        : Input(8) → Dense(32,ReLU) → Dense(16,ReLU) → Dense(8,ReLU) → Output(1,Sigmoid)
+Optimizer    : Adam (lr=0.001)
+Loss         : Binary Crossentropy
+Scaler       : MinMaxScaler
+Train/Test   : 80% / 20%
+
+PERFORMANCE METRICS
+-------------------
+Test Accuracy  : 0.7662  (76.62%)
+Test Loss      : 0.4834
+Precision      : 0.6863
+Recall         : 0.6364
+F1-Score       : 0.6604
+
+CONFUSION MATRIX
+----------------
+True  Negatives (TN): 83  (correctly classified as non-diabetic)
+False Positives (FP): 16  (non-diabetic predicted as diabetic)
+False Negatives (FN): 20  (diabetic predicted as non-diabetic)  ⚠️
+True  Positives (TP): 35  (correctly classified as diabetic)
